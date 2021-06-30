@@ -1,3 +1,49 @@
-.App {
- 
+.Navbar {
+  display: flex;
+  height: 55px;
+  background: blue;
+  margin: -8px;
+}
+
+.nav-items{
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav-items li {
+  list-style-type: none;
+  margin-top: 10px;
+  padding: 5px;
+  color: black;
+}
+
+.Logo {
+  width: 50%
+}
+
+.login {
+  border: solid 1px;
+  width: 500px;
+  height: 500px;
+  margin-left: 380px;
+  margin-top: 60px
+}
+
+.login h2 {
+  text-align: center
+}
+
+.login form {
+  margin-top: 70px;
+  display: flex;
+  flex-direction: column;
+}
+
+.login form input {
+  margin-top: 5px;
+}
+
+.login .options {
+  text-align: center;
 }
